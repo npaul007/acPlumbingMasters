@@ -2,7 +2,7 @@
 
 #wrapper{
 	margin-top: 35px;
-	margin-bottom: 200px;
+	margin-bottom: 300px;
 	padding: 15px;
 	height: 100%;
 }
@@ -61,7 +61,32 @@ body{
 	font-size: 3.5em;
 }
 
+#lead-row{
+	height: 100vh;
+}
+
 #meterImg{
 	height: 200px;
 	width: 200px;
+}
+
+button{
+	padding: 10px;
+}
+
+.hollow-button{
+	background: transparent;
+	border: 2px solid black;
+	font-size: 2em;
+	-webkit-transition: background  .2s ease-in-out, color .2s ease-in-out;
+    -moz-transition: background  .2s ease-in-out, color .2s ease-in-out;
+    -ms-transition: background  .2s ease-in-out, color .2s ease-in-out;
+    -o-transition: background  .2s ease-in-out, color .2s ease-in-out;
+    transition: background  .2s ease-in-out, color .2s ease-in-out;
+}
+
+.hollow-button:hover{
+	background: black;
+	color: white;
+	border: 2px solid black;
 }
