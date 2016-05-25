@@ -2,7 +2,6 @@
 
 #wrapper{
 	margin-top: 35px;
-	margin-bottom: 300px;
 	padding: 15px;
 	height: 100%;
 }
@@ -45,6 +44,7 @@ body{
 .footer{
 	height: 30px;
 	background: #800000;
+	float: bottom;
 }
 
 .evenRow{
@@ -57,8 +57,8 @@ body{
 	padding: 15px;
 }
 
-#lead-header{
-	font-size: 3.5em;
+.lead-header{
+	font-size:5em;
 }
 
 #lead-row{
@@ -72,6 +72,10 @@ body{
 
 button{
 	padding: 10px;
+}
+
+p{
+	font-size:1.5em;
 }
 
 .hollow-button{
@@ -89,4 +93,12 @@ button{
 	background: black;
 	color: white;
 	border: 2px solid black;
+}
+
+
+#services-lead-header{
+	background: #800000;
+	color: white;
+	padding: 15px;
+	height: 50vh;
 }
