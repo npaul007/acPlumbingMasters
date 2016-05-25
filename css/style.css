@@ -114,8 +114,7 @@ p{
 #services-lead-header{
 	background: #800000;
 	color: white;
-	padding: 10px;
-	height: 300px;
+	padding: 15px 15px 40px 15px;
 }
 
 @media screen and (max-width: 760px){
@@ -137,11 +136,11 @@ p{
 	}
 
 	#services-lead-header{
-		height: 350px;
+		height: auto;
 	}
 
 	p{
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 
 	.hollow-button{
