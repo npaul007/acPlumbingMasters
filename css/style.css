@@ -51,21 +51,21 @@ body{
 
 .footer{
 	height: auto;
-	background: #800000;
+	background: #4d0a00;
 	color: #fff;
-	text-align: center;
+
 	padding-bottom: 5px;
 	padding-top: 15px;
 }
 
 .evenRow{
 	background: #f8f1ec;
-	padding: 15px;
+	padding: 20px;
 }
 
 .oddRow{
 	background: #ead6c7;
-	padding: 15px;
+	padding: 20px;
 }
 
 .lead-header{
