@@ -121,6 +121,9 @@ p{
 	height: 100px;
 	width: 100px;
 	margin-top: 15px;
+	background: white;
+	padding: 15px;
+	border-radius: 100px;
 }
 
 #services-lead-header{
