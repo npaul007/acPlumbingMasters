@@ -20,7 +20,7 @@ body{
 }
 
 .navbar{
-	background: #3973ac;
+	background: #2d5986;
 	border-bottom: 1px solid #3973ac;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -128,6 +128,12 @@ p{
 
 #services-lead-header{
 	background: #800000;
+	color: white;
+	padding: 15px 15px 40px 15px;
+}
+
+#about-lead-header{
+	background: #3973ac;
 	color: white;
 	padding: 15px 15px 40px 15px;
 }
