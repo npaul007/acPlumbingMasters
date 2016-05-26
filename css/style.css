@@ -40,11 +40,22 @@ body{
     color: #fff;
 }
 
+#navbar-button{
+	background: transparent;
+	border: 2px solid #fff;
+}
+
+#navbar-button  .icon-bar{
+	color: #fff;
+}
+
 .footer{
 	height: auto;
 	background: #800000;
 	color: #fff;
 	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 15px;
 }
 
 .evenRow{
