@@ -41,9 +41,10 @@ body{
 }
 
 .footer{
-	height: 30px;
+	height: auto;
 	background: #800000;
-	position: absolute;
+	color: #fff;
+	text-align: center;
 }
 
 .evenRow{
