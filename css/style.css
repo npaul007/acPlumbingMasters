@@ -128,7 +128,7 @@ p{
 	background: white;
 	padding: 15px;
 	border-radius: 100px;
-	border: 1.5px solid black;
+	border: .2em solid black;
 }
 
 #services-lead-header{
@@ -140,7 +140,19 @@ p{
 #about-lead-header{
 	background: #3973ac;
 	color: white;
-	padding: 15px 15px 15px 15px;
+	padding: 40px 15px 40px 15px;
+}
+
+#mapRow{
+	background-image: url(../images/map.png);
+	height: 400px;
+	color: #fff;
+	text-shadow:3px 3px #000;
+}
+
+#servicing-text{
+	position: relative;
+	top: 150px;
 }
 
 @media screen and (max-width: 760px){
