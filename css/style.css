@@ -26,6 +26,14 @@ body{
 	padding-right: 20px;
 }
 
+#myNavbar{
+	display: none;
+}
+
+.navmenu{
+	background: #2d5986;
+}
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
@@ -101,7 +109,7 @@ button{
 }
 
 p{
-	font-size:1.5em;
+	font-size:1.35em;
 }
 
 .hollow-button{
