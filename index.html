@@ -152,14 +152,30 @@
 
 				<br/>
 
-				<form action="" method="post">
-					<input type="text"  name="firstName" placeholder="your first name" class="form-control">
-					<input type="text"  name="lastName" placeholder="your last name" class="form-control">
-					<input type="text"  name="email" placeholder="your your e-mail" class="form-control">
-					<input type="text"  name="phoneNumber" placeholder="your phone number" class="form-control">
-					<input type="text" name="message " placeholder="your message" class="form-control">
-					<input type="submit"  value="submit" class="btn btn-default form-control">
+				<form action="" method="post" id="messageForm">
+					<div class="container">
+						<div class="col-md-6">
+							<input type="text"  name="firstName" placeholder="your first name" class="text-input center form-control">
+							<input type="text"  name="lastName" placeholder="your last name" class="text-input center form-control">
+						</div>
+						<div class="col-md-6">
+							<input type="text"  name="email" placeholder="your your e-mail" class="text-input center form-control">
+							<input type="text"  name="phoneNumber" placeholder="your phone number" class="text-input center form-control">
+						</div>
+						<br/>
+					</div>
 				</form>
+
+				<div class="container">
+					<div class="col-md-12">
+						<textarea name="message" form="messageForm" cols="30" rows="10" class="text-input center form-control"></textarea>
+
+						<br/>
+
+						<button class="btn btn-default hollow-button center">Submit</button>
+
+					</div>
+				</div>
 			</div>
 
 			<footer class="row footer">
