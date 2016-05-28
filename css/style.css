@@ -164,6 +164,10 @@ p{
 	padding: 15px 15px 40px 15px;
 }
 
+#services-par{
+	width: 80%;
+}
+
 #about-lead-header{
 	background: #3973ac;
 	color: white;
@@ -184,6 +188,15 @@ p{
 
 .text-input{
 	margin-top: 15px;
+}
+
+#accordion h3{
+	background: #f1e4da;
+	padding: 15px;
+}
+
+#accordion div {
+	background: #f8f1ec;
 }
 
 @media screen and (max-width: 760px){
