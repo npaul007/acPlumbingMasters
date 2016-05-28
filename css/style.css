@@ -124,7 +124,7 @@ p{
 .icon-png{
 	height: 100px;
 	width: 100px;
-	margin-top: 15px;
+	margin-top: 25px;
 	background: white;
 	padding: 15px;
 	border-radius: 100px;
@@ -132,7 +132,7 @@ p{
 }
 
 .social-meadia-icons{
-	margin: 15px;
+	margin: 10px;
 	padding: 15px;
 	border: 2px solid white;
 	border-radius: 100px;
