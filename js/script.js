@@ -3,5 +3,5 @@ $(document).ready(function(){
 	    $('#myNavbar').slideToggle('fast');
 	});
 
-    $( "#accordion" ).accordion();
+    $( "#accordion" ).accordion({heightStyle:'content'});
 });
