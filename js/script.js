@@ -27,4 +27,11 @@ $(document).ready(function(){
 		$("html, body").animate({ scrollTop:$("#contactRow").offset().top -45 }, "slow");
 		return false;
 	});
+
+	$('.navbar-brand').click(function() {
+		$("html, body").animate({ scrollTop:0 }, "slow");
+		return false;
+	});
+
+
 });
