@@ -121,7 +121,8 @@ p{
 }
 
 .hollow-button{
-	background: transparent;
+	color: white;
+	background: black;
 	border: 2px solid black;
 	font-size: 2em;
 	-webkit-transition: background  .2s ease-in-out, color .2s ease-in-out;
@@ -132,8 +133,8 @@ p{
 }
 
 .hollow-button:hover{
-	background: black;
-	color: white;
+	background: transparent;
+	color: black;
 	border: 2px solid black;
 }
 
@@ -240,8 +241,6 @@ p{
 	}
 
 	.hollow-button{
-		background: transparent;
-		border: 2px solid black;
 		font-size: 1.5em;
 	}
 }
