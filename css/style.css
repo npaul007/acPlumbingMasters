@@ -243,4 +243,13 @@ p{
 	.hollow-button{
 		font-size: 1.5em;
 	}
+
+	#mapRow{
+		background-image: url(../images/map.png);
+		background-repeat: no-repeat;
+		background-size: 100% 150%;
+		height: 400px;
+		color: #fff;
+		text-shadow:3px 3px #000;
+	}
 }
