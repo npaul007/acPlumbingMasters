@@ -9,6 +9,10 @@ body{
 	/*background:linear-gradient(to bottom right, #f2e5d9 , #dfbe9f); */
 }
 
+a{
+	color: #66ccff;
+}
+
 .center-text{
 	text-align: center;
 }
