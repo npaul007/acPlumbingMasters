@@ -33,5 +33,10 @@ $(document).ready(function(){
 		return false;
 	});
 
+	$('#certifLink').click(function() {
+		$("html, body").animate({ scrollTop:$('#nest-lead-header').offset().top - 45 }, "slow");
+		return false;
+	});
+
 
 });
