@@ -17,6 +17,10 @@ footer .container a{
 	text-align: center;
 }
 
+.inline-block {
+	display: inline-block;
+}
+
 .center{
 	display: block;
 	margin-left: auto;
