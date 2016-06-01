@@ -175,6 +175,27 @@ p{
 	cursor: pointer;
 }
 
+.social-meadia-icons-footer{
+	margin: 10px;
+	padding: 15px;
+	border: 2px solid #4d0a00;
+	color: #4d0a00;
+	border-radius: 100px;
+	font-size: 2em;
+	-webkit-transition: background  .2s ease-in-out, color .2s ease-in-out;
+    -moz-transition: background  .2s ease-in-out, color .2s ease-in-out;
+    -ms-transition: background  .2s ease-in-out, color .2s ease-in-out;
+    -o-transition: background  .2s ease-in-out, color .2s ease-in-out;
+    transition: background  .2s ease-in-out, color .2s ease-in-out;
+}
+
+.social-meadia-icons-footer:hover{
+	background: #4d0a00;
+	border: 2px solid #4d0a00;
+	color: #fff;
+	cursor: pointer;
+}
+
 #services-lead-header{
 	background: #800000;
 	color: white;
