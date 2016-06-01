@@ -14,30 +14,28 @@ $(document).ready(function(){
 
     // navbar slide to content
     $('#servicesLink').click(function() {
-		//$("html, body").animate({ scrollTop:$("#services-lead-header").offset().top -45 }, "slow");
-		scrollTo('#services-lead-header');
+		scrollToDest('#services-lead-header');
 	});
 
     $('#aboutLink').click(function() {
-		scrollTo("#about-lead-header");
+		scrollToDest("#about-lead-header");
 	});
 
 	$('#contactLink').click(function() {
-		scrollTo("#contactRow");
+		scrollToDest("#contactRow");
 	});
 
 	$('.navbar-brand').click(function() {
-		//$("html, body").animate({ scrollTop:0 }, "slow");
-		scrollTo(0);
+		scrollToDest(0);
 	});
 
 	$('#certifLink').click(function() {
-		scrollTo('#nest-lead-header');
+		scrollToDest('#nest-lead-header');
 	});
 
 });
 
-function scrollTo(dest){
+function scrollToDest(dest){
 	if(isNaN(dest))
 		$("html, body").animate({ scrollTop:$(dest).offset().top -45 }, "slow");
 	else

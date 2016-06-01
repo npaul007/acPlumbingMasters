@@ -203,10 +203,6 @@ p{
 	padding: 15px 15px 30px 15px;
 }
 
-#nest-img{
-	margin: 15px auto 15px auto;
-}
-
 .video-container { 
    position: relative; /* keeps the aspect ratio */ 
    padding-bottom: 56.25%; /* fine tunes the video positioning */ 
