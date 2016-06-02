@@ -41,8 +41,8 @@ My portfolio: https://github.com/npaul007
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav navbar-right">
 		        <li id="servicesLink"><a>Services</a></li>
-		        <li id="aboutLink"><a>About</a></li>
 		        <li id="certifLink"><a>Reccomendations</a></li>
+		        <li id="aboutLink"><a>About</a></li>
 		        <li id="contactLink"><a>Contact</a></li> 
 		      </ul>
 		    </div>
@@ -163,10 +163,6 @@ My portfolio: https://github.com/npaul007
 
 			<div class="row" id="nest-lead-header">
 				<div class="container">
-					<header>
-						<br/>
-						<h1 class="lead-header center-text"><strong>Certifications</strong></h1>
-					</header>
 					<br/>
 					<article>
 						<div class="col-md-5">
@@ -187,18 +183,41 @@ My portfolio: https://github.com/npaul007
 				</div>
 			</div>
 
-			<div class="row evenRow">
+			<div class="row evenRow" id="rec-header">
 				<div class="container">
 					<header>
-						<h1 class="lead-header"><strong>Reccomendations</strong></h1>
-						<h1>Here are some tips to help create a comfortable environment for your home or business:</h1>
+						<h1 class="lead-header"><strong>Recommendations</strong></h1>
+						<h3>Here are some tips to help create a comfortable environment for your home or business:</h3>
 					</header>
 				</div>
 			</div>
 
 			<div class="row oddRow">
 				<div class="container">
-					
+					<ul id="tipsList">
+						<li>Just as a tune-up for your car can improve your gas mileage, a yearly tune-up of your heating and cooling system can improve efficiency and comfort.You should tune up your HVAC unit yearly
+						Call us today for your Fall heating check up or for your Spring A/C check up.</li>
+
+						<li>Indoor Air pollutants can aggravate asthma and allergies and other respitory problems . Installing a whole house air cleaner on your ductwork will purify the air that you and your family breathe. Call us today to get  one of our trained Indoor Air Quality (IAQ)  specialists to show you how you and your family could breathe comfortably and safely.
+						</li>
+
+						<li>HVAC systems break down. Don't panic! Call us and we will quickly diagnose your system to pin point the problems then making the appropriate recommendations to fix the problems.
+						</li>
+
+						<li>Improves system performance
+						Increases energy efficiency
+						Reduces energy cost
+						Extends equipment lifespan
+						Helps prevent costly breakdowns and disasters
+						Improve system safety.
+						Sign Up for Home Service Plan today!</li>
+
+						<li>DON'T LEAVE YOUR AIR CONDITIONER DEFENSELESS !
+						Daily power surges from your utility and lightning strikes could badly damage your HVAC equipment.
+						Professionally  Installed Surge Protection:
+						Protects Against Lightning
+						Protects against Utility Grid "Spikes"and Extends the Life of your equipment.</li>
+					</ul>
 				</div>
 			</div>
 
@@ -247,12 +266,12 @@ My portfolio: https://github.com/npaul007
 				<form action="" method="post" id="messageForm">
 					<div class="container">
 						<div class="col-md-6">
-							<input type="text"  name="firstName" placeholder="your first name" class="text-input center form-control">
-							<input type="text"  name="lastName" placeholder="your last name" class="text-input center form-control">
+							<input type="text"  name="firstName" placeholder="your first name" class="text-input center form-control" required>
+							<input type="text"  name="lastName" placeholder="your last name" class="text-input center form-control" required>
 						</div>
 						<div class="col-md-6">
-							<input type="text"  name="email" placeholder="your e-mail" class="text-input center form-control">
-							<input type="text"  name="phoneNumber" placeholder="your phone number" class="text-input center form-control">
+							<input type="email"  name="email" placeholder="your e-mail" class="text-input center form-control" required>
+							<input type="text"  name="phoneNumber" placeholder="your phone number" class="text-input center form-control" required>
 						</div>
 						<br/>
 					</div>
@@ -260,11 +279,11 @@ My portfolio: https://github.com/npaul007
 
 				<div class="container">
 					<div class="col-md-12">
-						<textarea name="message" form="messageForm" cols="30" rows="10" class="text-input center form-control" placeholder="your message"></textarea>
+						<textarea name="message" form="messageForm" cols="30" rows="10" class="text-input center form-control" placeholder="your message" required></textarea>
 
 						<br/>
 
-						<button class="btn btn-default hollow-button center">Submit</button>
+						<button class="btn btn-default hollow-button center" form="messageForm">Submit</button>
 
 					</div>
 				</div>

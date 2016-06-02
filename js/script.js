@@ -30,7 +30,7 @@ $(document).ready(function(){
 	});
 
 	$('#certifLink').click(function() {
-		scrollToDest('#nest-lead-header');
+		scrollToDest('#rec-header');
 	});
 
 });
