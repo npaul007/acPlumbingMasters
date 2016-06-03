@@ -57,6 +57,11 @@ footer .container a{
 .navbar-default .navbar-nav>li>a {
     color: #fff;
     font-size: 1em;
+    -webkit-transition: background  .2s ease-in-out, color .2s ease-in-out;
+    -moz-transition: background  .2s ease-in-out, color .2s ease-in-out;
+    -ms-transition: background  .2s ease-in-out, color .2s ease-in-out;
+    -o-transition: background  .2s ease-in-out, color .2s ease-in-out;
+    transition: background  .2s ease-in-out, color .2s ease-in-out;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -294,8 +299,12 @@ p{
 		height: auto;
 	}
 
-	p{
-		font-size: 1.5em;
+	p,li{
+		font-size: 1.1em;
+	}
+
+	#tipsList li{
+		font-size: 1.1em;
 	}
 
 	.hollow-button{
@@ -321,3 +330,4 @@ p{
 		font-size: 1.2em;
 	}
 }
+

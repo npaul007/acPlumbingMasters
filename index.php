@@ -3,7 +3,6 @@ Site Created by : Nathanael Auxil Paulemon
 For Business purposes contact me at : npaulemon@gmail.com or (203) - 820 - 5307
 My portfolio: https://github.com/npaul007
 -->
-
 <html>
 	<head>
 		<title>AC Plumbing Masters</title>
@@ -41,7 +40,7 @@ My portfolio: https://github.com/npaul007
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav navbar-right">
 		        <li id="servicesLink"><a>Services</a></li>
-		        <li id="certifLink"><a>Reccomendations</a></li>
+		        <li id="certifLink"><a>Recommendations</a></li>
 		        <li id="aboutLink"><a>About</a></li>
 		        <li id="contactLink"><a>Contact</a></li> 
 		      </ul>
@@ -263,7 +262,7 @@ My portfolio: https://github.com/npaul007
 
 				<br/>
 
-				<form action="" method="post" id="messageForm">
+				<form action="index.php" method="post" id="messageForm">
 					<div class="container">
 						<div class="col-md-6">
 							<input type="text"  name="firstName" placeholder="your first name" class="text-input center form-control" required>
@@ -292,20 +291,48 @@ My portfolio: https://github.com/npaul007
 
 			<div class="row center-text evenRow" id="iconRow">
 				<i class="fa fa-linkedin social-meadia-icons-footer
-.social-meadia-icons-footer"></i>
+				.social-meadia-icons-footer"></i>
 				<i class="fa fa-facebook-square social-meadia-icons-footer
-.social-meadia-icons-footer"></i>
+				.social-meadia-icons-footer"></i>
 				<i class="fa fa-twitter social-meadia-icons-footer
-.social-meadia-icons-footer"></i>
+				.social-meadia-icons-footer"></i>
 			</div>
 			<footer class="row footer">
 				<div class="container center-text">
 					<div class="inline-block"><p>&copy Lebrun's HVAC Services. LLC | </p></div>
 					<div class="inline-block"><p> tel:<a href="tel:301-613-1392">+301-613-1392</a> | </p></div>
 					<div class="inline-block"><p>fax:301-497-1945 | </p></div>
-					<div class="inline-block"><p><a href="mailto:prstech1@gmail.com">prstech1@gmail.com</a></p></div>
+					<div class="inline-block"><p><a href="mailto:prstech1@gmail.com">prstech1@gmail.com</a> | </p></div>
+					<div class="inline-block"><p>Laurel, MD  20723</p></div>
 				</div>
 			</footer>
 		</div>
 	</body>
 </html>
+
+<!-- form message code -->
+<?php
+
+	// check to see of post array is populated
+	if(array_key_exists('firstName', $_POST) && array_key_exists('lastName', $_POST) &&
+		array_key_exists('email', $_POST) && array_key_exists('phoneNumber', $_POST) && array_key_exists('message', $_POST) ){
+		$firstName = $_POST['firstName'];	
+		$lastName = $_POST['lastName'];
+		$email = $_POST['email'];
+		$phoneNumber = $_POST['phoneNumber'];
+		$message = $_POST['message'];
+
+		$message = $message . "\r\n" . "\r\n" . $phoneNumber . "\r\n" . $email;
+
+		$to = 'npaulemon@gmail.com';
+		$subject = 'AC Plumbing Masters Message';
+		$from = $firstName . " " . $lastName . " < " . $email . ">";
+
+		if(mail($to,$subject,$message,$from)){
+			echo '<script> alert("Your message has been sent successfully!") </script>';
+		}else{
+			echo '<script> alert("Error! Message could not be sent.") </script>';
+		}
+	} 
+
+?>
