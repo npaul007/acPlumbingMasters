@@ -56,13 +56,20 @@ My portfolio: https://github.com/npaul007
 
 		<div class="container-fluid" id="wrapper">
 			<div class="row" id="lead-row">
-				<div class="col-md-3">
-					<img src="images/meter.png" class="img-responsive center" id="meterImg" alt="">
-					<div id="rays"></div>
-				</div>
-				<div class="col-md-9">
-					<h1 class="center-text lead-header" id="lead-header"><strong>LeBrun's HVAC Services. LLC</strong></h1>
-					<h2 class="center-text" id="slogan">"<strong>HVAC Comfort Always at a Cool Price!"</strong></h2>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<img src="images/meter.png" class="img-responsive center" id="meterImg" alt="">
+						</div>
+					</div>
+					<div class="row" id="sub-lead-row">
+						<div class="col-md-12">
+							<h1 class="center-text lead-header" id="lead-header"><strong>LeBrun's HVAC Services. LLC</strong></h1>
+							<h2 class="center-text" id="slogan">"<strong>HVAC Comfort Always at a Cool Price!"</strong></h2>
+							<h3 class="center-text"><strong>Call now for an Estimate!</strong></h3>
+							<h3 class="center-text"><a class="center-text" href="tel:301-613-1392 "><strong>&#9742 +301-613-1392 </strong></a></h3>
+						</div>
+					</div>
 				</div>
 			</div>
 

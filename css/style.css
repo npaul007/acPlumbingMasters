@@ -129,6 +129,11 @@ footer .container a{
 	background-position: center;
 }
 
+#sub-lead-row{
+	position: relative;
+	bottom: 70px;
+}
+
 #meterImg{
 	height: 250px;
 	width: 250px;
@@ -139,10 +144,6 @@ footer .container a{
 	position: relative;
 	right: 45px;
 	bottom: 25px;
-}
-
-#rays{
-
 }
 
 .accordionMetoerImg{
