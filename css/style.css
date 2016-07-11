@@ -138,10 +138,12 @@ footer .container a{
 	height: 250px;
 	width: 250px;
 	margin-bottom: 50px;
-	border: 20px solid #f8f1ec;
+	border: 30px solid #f8f1ec;
 	border-radius: 200px;
 	float: left;
 	position: relative;
+	right: 40px;
+	bottom: 20px;
 }
 
 .accordionMetoerImg{
