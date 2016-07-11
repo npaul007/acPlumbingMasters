@@ -58,6 +58,7 @@ My portfolio: https://github.com/npaul007
 			<div class="row" id="lead-row">
 				<div class="col-md-3">
 					<img src="images/meter.png" class="img-responsive center" id="meterImg" alt="">
+					<div id="rays"></div>
 				</div>
 				<div class="col-md-9">
 					<h1 class="center-text lead-header" id="lead-header"><strong>LeBrun's HVAC Services. LLC</strong></h1>
