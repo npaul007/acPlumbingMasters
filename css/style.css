@@ -56,19 +56,23 @@ footer .container a{
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
-    font-size: 1em;
+    font-size: 1.1em;
     -webkit-transition: background  .2s ease-in-out, color .2s ease-in-out;
     -moz-transition: background  .2s ease-in-out, color .2s ease-in-out;
     -ms-transition: background  .2s ease-in-out, color .2s ease-in-out;
     -o-transition: background  .2s ease-in-out, color .2s ease-in-out;
     transition: background  .2s ease-in-out, color .2s ease-in-out;
+    transition: background-position .2s;
+    transition-timing-function: ease-out;
+    background-image: linear-gradient(to bottom, #2d5986 50%, #fff 50%);
+    background-size: 100% 200%;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
 	cursor: pointer;
-	background: #fff;
-	color: #000;
+	background-position: 0 100%;
 }
+
 
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: -15px;
@@ -118,13 +122,24 @@ footer .container a{
 }
 
 #lead-row{
-	height: 100vh;
+	height: auto;
+	padding-bottom: 100px;
+
+	background: repeating-linear-gradient(
+	  35deg,
+	  #f8f1ec,
+	  #f8f1ec 10px,
+	  #f1e4da 20px,
+	  #f1e4da 50px
+	);
 }
 
 #meterImg{
 	height: 200px;
 	width: 200px;
 	margin-bottom: 50px;
+	border: 20px solid #f8f1ec;
+	border-radius: 200px;
 }
 
 .accordionMetoerImg{
@@ -279,7 +294,7 @@ p{
 
 @media screen and (max-width: 760px){
 	#lead-row{
-		height: 550px;
+		height: auto;
 	}
 
 	.lead-header{
@@ -330,4 +345,5 @@ p{
 		font-size: 1.2em;
 	}
 }
+
 

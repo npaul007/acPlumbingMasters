@@ -5,7 +5,13 @@ My portfolio: https://github.com/npaul007
 -->
 <html>
 	<head>
-		<title>AC Plumbing Masters</title>
+		<title>Lebrun's HVAC Services LLC. Laurel, MD 20723</title>
+
+		<meta name="description" content="Lebrun's HVAC Services provides cooling, heating, 
+		and Indoor Air Quality/Air Conditioning services with a knowledgeable team of trained specialist(s) 
+		who have the professional background to get the job done right. Garanteed. We are the 
+		AC Plumbing Masters. Yours truly Nicson Lebrun. We are servicing Maryland, Viriginia and D.C" />
+
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,7 +56,7 @@ My portfolio: https://github.com/npaul007
 
 		<div class="container-fluid" id="wrapper">
 
-			<div class="row oddRow" id="lead-row">
+			<div class="row" id="lead-row">
 				<div class="col-md-12">
 
 					<h1 class="center-text lead-header" id="lead-header"><strong>Lebrun's HVAC Services. LLC</strong></h1>
@@ -64,7 +70,9 @@ My portfolio: https://github.com/npaul007
 
 					<!--<h2 class="center-text" style="color:#800000;">A/C & Furnace Maintenance, Repairs, Installation, & IAQ</h2>-->
 
-					<button class=" center hollow-button">Call Now For An Estimate!</button>
+					<a href="tel:301-613-1392">
+						<button class=" center hollow-button">Call Now For An Estimate!</button>
+					</a>
 				</div>
 			</div>
 
@@ -324,7 +332,7 @@ My portfolio: https://github.com/npaul007
 
 		$message = $message . "\r\n" . "\r\n" . $phoneNumber . "\r\n" . $email;
 
-		$to = 'npaulemon@gmail.com';
+		$to = 'prstech1@gmail.com';
 		$subject = 'AC Plumbing Masters Message';
 		$from = $firstName . " " . $lastName . " < " . $email . ">";
 
