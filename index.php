@@ -254,8 +254,8 @@ My portfolio: https://github.com/npaul007
 			</div>
 
 			<div class="row oddRow" id="contactRow">
-				<h1 class="center-text lead-header">Give us a Call!</h1>
-				<h1 class="center-text"><a href="tel:301-613-1392">301.613.1392</a></h1>
+				<h1 class="center-text lead-header"><strong>Give us a Call!</strong></h1>
+				<h1 class="center-text"><a href="tel:301-613-1392">&#9742 301.613.1392</a></h1>
 
 				<br/>
 
@@ -263,7 +263,7 @@ My portfolio: https://github.com/npaul007
 
 				<br/>
 
-				<h1 class="center-text lead-header">Send us a Message!</h1>
+				<h1 class="center-text lead-header"><strong>Send us a Message!</strong></h1>
 
 				<br/>
 
