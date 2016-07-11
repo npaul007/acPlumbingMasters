@@ -34,7 +34,7 @@ My portfolio: https://github.com/npaul007
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top">
-		  <footer class="container-fluid">
+		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle btn btn-default" id="navbar-button" data-toggle="collapse" data-target="#myNavbar">
 		        <span class="icon-bar"></span>
@@ -55,24 +55,13 @@ My portfolio: https://github.com/npaul007
 		</nav>
 
 		<div class="container-fluid" id="wrapper">
-
 			<div class="row" id="lead-row">
-				<div class="col-md-12">
-
-					<h1 class="center-text lead-header" id="lead-header"><strong>Lebrun's HVAC Services. LLC</strong></h1>
-
-					<!--<h1 class="center-text">Call or Text Us: <a href="tel:301-613-1392">(301)-613-1392</a></h1>
-					<br/> -->
-
+				<div class="col-md-3">
 					<img src="images/meter.png" class="img-responsive center" id="meterImg" alt="">
-
-					<h2 class="center-text" id="slogan">"HVAC Comfort Always at a Cool Price!"</h2>
-
-					<!--<h2 class="center-text" style="color:#800000;">A/C & Furnace Maintenance, Repairs, Installation, & IAQ</h2>-->
-
-					<a href="tel:301-613-1392">
-						<button class=" center hollow-button">Call Now For An Estimate!</button>
-					</a>
+				</div>
+				<div class="col-md-9">
+					<h1 class="center-text lead-header" id="lead-header"><strong>LeBrun's HVAC Services. LLC</strong></h1>
+					<h2 class="center-text" id="slogan">"<strong>HVAC Comfort Always at a Cool Price!"</strong></h2>
 				</div>
 			</div>
 
@@ -177,7 +166,7 @@ My portfolio: https://github.com/npaul007
 							<p>Click this  video to see how Nest products could save you more than just money !</p>
 							<br/>
 							<a href="https://nest.com/" target="_blank">
-								<img src="images/nest.jpg" class="img-responsive"  alt="">
+								<img src="images/nest.jpg" class="img-responsive" id="nestImg"  alt="">
 							</a>
 							<br/>
 						</div>

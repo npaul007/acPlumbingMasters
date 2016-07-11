@@ -108,7 +108,7 @@ footer .container a{
 }
 
 .lead-header{
-	font-size:5em;
+	font-size:4.5em;
 }
 
 #lead-header{
@@ -129,17 +129,19 @@ footer .container a{
 	  35deg,
 	  #f8f1ec,
 	  #f8f1ec 10px,
-	  #f1e4da 20px,
+	  #f1e4da 10px,
 	  #f1e4da 50px
 	);
 }
 
 #meterImg{
-	height: 200px;
-	width: 200px;
+	height: 250px;
+	width: 250px;
 	margin-bottom: 50px;
 	border: 20px solid #f8f1ec;
 	border-radius: 200px;
+	float: left;
+	position: relative;
 }
 
 .accordionMetoerImg{
@@ -258,6 +260,11 @@ p{
 	background: #c65353;
 	color: white;
 	padding: 15px 15px 30px 15px;
+}
+
+#nestImg{
+	border: 10px solid #fff;
+	box-shadow: 2px 2px #000;
 }
 
 .video-container { 
