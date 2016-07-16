@@ -166,29 +166,7 @@ My portfolio: https://github.com/npaul007
 				</div>
 			</div>
 
-			<div class="row evenRow" >
-				<div class="container">
-					<br/>
-					<article>
-						<div class="col-md-5">
-							<p>We are also an <strong>Approved</strong>  NEST PRO Installer in the DC Metro Area !</p>
-							<p>Click this  video to see how Nest products could save you more than just money !</p>
-							<br/>
-							<a href="https://nest.com/" target="_blank">
-								<img src="images/nest.jpg" class="img-responsive center" id="nestImg"  alt="">
-							</a>
-							<br/>
-						</div>
-						<div class="col-md-7">
-							<div class="video-container">
-							  <iframe width="300" height="168" src="http://www.youtube.com/embed/5thQRIX3Rio" frameborder="0" allowfullscreen></iframe>
-							</div>
-						</div>
-					</article>
-				</div>
-			</div>
-
-			<div class="row evenRow" id="rec-header">
+			<div class="row" id="rec-header">
 				<div class="container">
 					<header>
 						<h1 class="lead-header center-text"><strong>Recommendations</strong></h1>
@@ -241,7 +219,7 @@ My portfolio: https://github.com/npaul007
 					<div class="col-md-4">
 						<img src="images/nicsonPortrait.jpg" class="img-responsive img-circle center" alt="">
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8" id="ceo-text">
 						<h2><strong>Nicson Lebrun</strong></h2>
 						<h3>Chief Executive Officer of Lebrun's HVAC Services LLC.</h3>
 						<p>
@@ -254,13 +232,35 @@ My portfolio: https://github.com/npaul007
 				</div>
 			</div>
 
+			<div class="row oddRow" >
+				<div class="container">
+					<br/>
+					<article>
+						<div class="col-md-5">
+							<p>We are also an <strong>Approved</strong>  NEST PRO Installer in the DC Metro Area !</p>
+							<p>Click this  video to see how Nest products could save you more than just money !</p>
+							<br/>
+							<a href="https://nest.com/" target="_blank">
+								<img src="images/nest.jpg" class="img-responsive center" id="nestImg"  alt="">
+							</a>
+							<br/>
+						</div>
+						<div class="col-md-7">
+							<div class="video-container">
+							  <iframe width="300" height="168" src="http://www.youtube.com/embed/5thQRIX3Rio" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+
 			<div class="row" id="mapRow">
 				<div class="container">
 					<h1 class="center-text" id="servicing-text"><strong>Servicing Maryland, Virginia & D.C</strong></h1>
 				</div>
 			</div>
 
-			<div class="row oddRow" id="contactRow">
+			<div class="row evenRow" id="contactRow">
 				<h1 class="center-text lead-header"><strong>Give us a Call!</strong></h1>
 				<h1 class="center-text"><a href="tel:301-613-1392">&#9742 301.613.1392</a></h1>
 
@@ -301,7 +301,7 @@ My portfolio: https://github.com/npaul007
 			</div>
 
 
-			<div class="row center-text evenRow" id="iconRow">
+			<div class="row center-text oddRow" id="iconRow">
 				<i class="fa fa-linkedin social-meadia-icons-footer
 				.social-meadia-icons-footer"></i>
 				<i class="fa fa-facebook-square social-meadia-icons-footer
@@ -309,6 +309,7 @@ My portfolio: https://github.com/npaul007
 				<i class="fa fa-twitter social-meadia-icons-footer
 				.social-meadia-icons-footer"></i>
 			</div>
+
 			<footer class="row footer">
 				<div class="container center-text">
 					<div class="inline-block"><p>&copy Lebrun's HVAC Services. LLC | </p></div>

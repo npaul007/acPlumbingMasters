@@ -99,12 +99,12 @@ footer .container a{
 
 .evenRow{
 	background: #f8f1ec;
-	padding: 20px 20px 45px 20px;
+	padding: 45px 20px 45px 20px;
 }
 
 .oddRow{
 	background: #f1e4da;
-	padding: 20px 20px 45px 20px;
+	padding: 45px 20px 45px 20px;
 }
 
 .lead-header{
@@ -119,7 +119,7 @@ footer .container a{
 #rec-header{
 	color: white;
 	background: #800000;
-	padding-bottom: 50px;
+	padding: 15px 15px 40px 15px;
 }
 
 #slogan{
@@ -159,6 +159,7 @@ footer .container a{
 
 button{
 	padding: 10px;
+	margin-top: 20px;
 }
 
 p{
@@ -288,6 +289,10 @@ p{
 	background: #f8f1ec;
 }
 
+.ui-state-focus { 
+	outline: none; 
+}
+
 #tipsList li{
 	font-size: 1.3em;
 	margin-top: 15px;
@@ -318,6 +323,10 @@ p{
 
 	#services-lead-header{
 		height: auto;
+	}
+
+	#ceo-text{
+		text-align: center;
 	}
 
 	p,li{
