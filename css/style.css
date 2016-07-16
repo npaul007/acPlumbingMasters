@@ -99,12 +99,12 @@ footer .container a{
 
 .evenRow{
 	background: #f8f1ec;
-	padding: 20px;
+	padding: 20px 20px 45px 20px;
 }
 
 .oddRow{
 	background: #f1e4da;
-	padding: 20px;
+	padding: 20px 20px 45px 20px;
 }
 
 .lead-header{
@@ -118,7 +118,8 @@ footer .container a{
 
 #rec-header{
 	color: white;
-	background: #2d5986;
+	background: #800000;
+	padding-bottom: 50px;
 }
 
 #slogan{
@@ -192,19 +193,6 @@ p{
 	border: .2em solid black;
 }
 
-.social-meadia-icons{
-	margin: 10px;
-	padding: 15px;
-	border: 2px solid white;
-	border-radius: 100px;
-	font-size: 2em;
-	-webkit-transition: background  .2s ease-in-out, color .2s ease-in-out;
-    -moz-transition: background  .2s ease-in-out, color .2s ease-in-out;
-    -ms-transition: background  .2s ease-in-out, color .2s ease-in-out;
-    -o-transition: background  .2s ease-in-out, color .2s ease-in-out;
-    transition: background  .2s ease-in-out, color .2s ease-in-out;
-}
-
 .social-meadia-icons:hover{
 	background: #fff;
 	color: #3973ac;
@@ -245,7 +233,7 @@ p{
 #about-lead-header{
 	background: #4d0a00;
 	color: white;
-	padding: 40px 15px 40px 15px;
+	padding: 15px 15px 40px 15px;
 }
 
 #mapRow{

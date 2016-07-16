@@ -226,7 +226,17 @@ My portfolio: https://github.com/npaul007
 				</div>
 			</div>
 
-			<div class="row" id="about-lead-header">
+			<div class="row evenRow" id="about-lead-header">
+				<div class="container">
+					<header>
+						<h1 class="lead-header center-text"><strong>About Us</strong></h1>
+						<p class="center-text">Lebrun's HVAC Services provides cooling, heating, and Indoor Air Quality services  with a knowledgeable team of trained specialist(s) w
+						ho have the professional background to get the job done right. Guaranteed.</p>
+					</header>
+				</div>
+			</div>
+
+			<div class="row evenRow">
 				<div class="container">
 					<div class="col-md-4">
 						<img src="images/nicsonPortrait.jpg" class="img-responsive img-circle center" alt="">
@@ -234,7 +244,6 @@ My portfolio: https://github.com/npaul007
 					<div class="col-md-8">
 						<h2><strong>Nicson Lebrun</strong></h2>
 						<h3>Chief Executive Officer of Lebrun's HVAC Services LLC.</h3>
-						<p>Lebrun's HVAC Services provides cooling, heating, and Indoor Air Quality services  with a knowledgeable team of trained specialist(s) who have the professional background to get the job done right. Garanteed.<p>
 						<p>
 						You can count on our courteous technician(s), and Comfort Advisor(s) to provide you with exceptional service - 24/7.</p>
 						<p>
