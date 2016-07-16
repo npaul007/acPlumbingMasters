@@ -67,6 +67,7 @@ My portfolio: https://github.com/npaul007
 							<h1 class="center-text lead-header" id="lead-header"><strong>LeBrun's HVAC Services. LLC</strong></h1>
 							<h2 class="center-text" id="slogan">"<strong>HVAC Comfort Always at a Cool Price!"</strong></h2>
 							<h3 class="center-text"><strong>Call now for an Estimate!</strong></h3>
+							<br/>
 							<h3 class="center-text"><a class="center-text" href="tel:301-613-1392 "><strong>&#9742 +301-613-1392 </strong></a></h3>
 						</div>
 					</div>
@@ -119,7 +120,7 @@ My portfolio: https://github.com/npaul007
 			
 			<div class="row oddRow">
 				<div class="container">
-					<h1 class="lead-header"><strong>Other services we provide:</strong></h1>
+					<h1 class="lead-header center-text"><strong>Other services we provide:</strong></h1>
 
 					<div id="accordion">
 					  <h3><img src="images/meter.png" class="accordionMetoerImg" alt="">Maintenance Contracts</h3>
@@ -165,7 +166,7 @@ My portfolio: https://github.com/npaul007
 				</div>
 			</div>
 
-			<div class="row" id="nest-lead-header">
+			<div class="row evenRow" >
 				<div class="container">
 					<br/>
 					<article>
@@ -174,7 +175,7 @@ My portfolio: https://github.com/npaul007
 							<p>Click this  video to see how Nest products could save you more than just money !</p>
 							<br/>
 							<a href="https://nest.com/" target="_blank">
-								<img src="images/nest.jpg" class="img-responsive" id="nestImg"  alt="">
+								<img src="images/nest.jpg" class="img-responsive center" id="nestImg"  alt="">
 							</a>
 							<br/>
 						</div>
@@ -190,13 +191,13 @@ My portfolio: https://github.com/npaul007
 			<div class="row evenRow" id="rec-header">
 				<div class="container">
 					<header>
-						<h1 class="lead-header"><strong>Recommendations</strong></h1>
-						<h3>Here are some tips to help create a comfortable environment for your home or business:</h3>
+						<h1 class="lead-header center-text"><strong>Recommendations</strong></h1>
+						<p class="center-text">Here are some tips to help create a comfortable environment for your home or business:</p>
 					</header>
 				</div>
 			</div>
 
-			<div class="row oddRow">
+			<div class="row evenRow">
 				<div class="container">
 					<ul id="tipsList">
 						<li>Just as a tune-up for your car can improve your gas mileage, a yearly tune-up of your heating and cooling system can improve efficiency and comfort.You should tune up your HVAC unit yearly
@@ -240,9 +241,6 @@ My portfolio: https://github.com/npaul007
 						When our technician(s) visit(s) your home, rest assured that they have passed national background and drug tests, and are equipped to provide you with the service you need.</p>
 						<p>
 						We treat you and your property with respect by calling before we arrive at your property, providing an honest, upfront estimate you approve before any work is done, and taking care of your property by using shoe covers and drop cloths as needed.</p>
-						<i class="fa fa-linkedin social-meadia-icons"></i>
-						<i class="fa fa-facebook-square social-meadia-icons"></i>
-						<i class="fa fa-twitter social-meadia-icons"></i>
 					</div>
 				</div>
 			</div>
