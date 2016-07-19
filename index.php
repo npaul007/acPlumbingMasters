@@ -41,7 +41,7 @@ My portfolio: https://github.com/npaul007
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span> 
 		      </button>
-		      <a class="navbar-brand"><strong>AC Plumbing Masters</strong></a>
+		      <a class="navbar-brand"><strong>ACPlumbingMasters</strong></a>
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav navbar-right">
@@ -65,10 +65,9 @@ My portfolio: https://github.com/npaul007
 					<div class="row" id="sub-lead-row">
 						<div class="col-md-12">
 							<h1 class="center-text lead-header" id="lead-header"><strong>LeBrun's HVAC Services. LLC</strong></h1>
-							<h2 class="center-text" id="slogan">"<strong>HVAC Comfort Always at a Cool Price!"</strong></h2>
-							<h3 class="center-text"><strong>Call now for an Estimate!</strong></h3>
-							<br/>
-							<h3 class="center-text"><a class="center-text" href="tel:301-613-1392 "><strong>&#9742 +301-613-1392 </strong></a></h3>
+							<h2 class="center-text" id="slogan">"<strong>HVAC Comfort Always at a Comfortable Price!"</strong></h2>
+							<h3 class="center-text"><span style="color:red">Heating</span>, 
+								<span style="color:blue">Cooling</span> & <span style="color:green">Indoor Air Quality</span> </h3>
 						</div>
 					</div>
 				</div>
@@ -165,8 +164,7 @@ My portfolio: https://github.com/npaul007
 					</div>
 				</div>
 			</div>
-
-			<div class="row" id="rec-header">
+  			<div class="row" id="rec-header">
 				<div class="container">
 					<header>
 						<h1 class="lead-header center-text"><strong>Recommendations</strong></h1>
@@ -239,9 +237,8 @@ My portfolio: https://github.com/npaul007
 						<div class="col-md-5">
 							<p>We are also an <strong>Approved</strong>  NEST PRO Installer in the DC Metro Area !</p>
 							<p>Click this  video to see how Nest products could save you more than just money !</p>
-							<br/>
 							<a href="https://nest.com/" target="_blank">
-								<img src="images/nest.jpg" class="img-responsive center" id="nestImg"  alt="">
+								<img src="images/nest.jpg" class="img-responsive" id="nestImg"  alt="">
 							</a>
 							<br/>
 						</div>
@@ -299,7 +296,6 @@ My portfolio: https://github.com/npaul007
 					</div>
 				</div>
 			</div>
-
 
 			<div class="row center-text oddRow" id="iconRow">
 				<i class="fa fa-linkedin social-meadia-icons-footer

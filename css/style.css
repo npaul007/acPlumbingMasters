@@ -114,6 +114,7 @@ footer .container a{
 #lead-header{
 	margin-bottom: 50px;
 	margin-top: 25px;
+	color: #800000;
 }
 
 #rec-header{
@@ -123,7 +124,7 @@ footer .container a{
 }
 
 #slogan{
-	color: green;
+	color: #000066;
 	margin-bottom: 50px;
 }
 
@@ -258,7 +259,7 @@ p{
 }
 
 #nestImg{
-	border: 10px solid #fff;
+	border: 30px solid #fff;
 	box-shadow: 2px 2px #000;
 }
 
@@ -358,6 +359,11 @@ p{
 
 	#accordion h3{
 		font-size: 1.2em;
+	}
+
+	#nestImg{
+		margin-right: auto;
+		margin-left: auto;
 	}
 }
 
