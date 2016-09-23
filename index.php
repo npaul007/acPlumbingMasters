@@ -41,7 +41,7 @@ My portfolio: https://github.com/npaul007
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span> 
 		      </button>
-		      <a class="navbar-brand"><strong>ACPlumbingMasters</strong></a>
+		      <a class="navbar-brand"><strong>LeBrun's HVAC Services</strong></a>
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav navbar-right">
@@ -85,7 +85,7 @@ My portfolio: https://github.com/npaul007
 				</div>
 			</div>
 
-			<div class="row evenRow">
+			<div class="row oddRow">
 				<div class="container">
 					<div class="col-md-4">
 						<img src="images/1464235634_Icon_Element_Fire_03.png" class="center icon-png" alt="">
@@ -117,50 +117,61 @@ My portfolio: https://github.com/npaul007
 				</div>
 			</div>
 			
-			<div class="row oddRow">
+			<div class="row evenRow">
 				<div class="container">
-					<h1 class="lead-header center-text"><strong>Other services we provide:</strong></h1>
+					<div class="col-md-6">
+						<h1 class="center-text"><strong>Other services we offer:</strong></h1>
 
-					<div id="accordion">
-					  <h3><img src="images/meter.png" class="accordionMetoerImg" alt="">Maintenance Contracts</h3>
-					  <div>
-					    <p>
-					   To help extend the life of your furnace be sure to provide regular maintenance.  We offer affordable yearly service contract for residential & light commercial customers. Sign up by calling us or making an appointment today!
-					    </p>
-					  </div>
-					  <h3><img src="images/meter.png" class="accordionMetoerImg" alt="">HVAC Unit Protection</h3>
-					  <div>
-					    <p>
-					  Each year , the average home or business experiences more than 300 potentially damaging surges.Today's Heating, Ventilation and Air Conditioning (HVAC) Equipment is becoming more sensitive to this avoidable environmental condition.</p>
-					  <p>
-						What can be done?</p>
-						<p>
-						Installation of a quality surge protector product to prevent or minimize the damage to your HVAC units. It removes the daily power surges and spikes from the local power company, it protects from lightning strikes and the life of your equipment as well. Get it installed today by calling us for an appointment now! 
-						</p>
-					  </div>
-					  <h3><img src="images/meter.png" class="accordionMetoerImg" alt="">Water Damage Protection</h3>
-					  <div>
-						<p>The damage caused by excess condensation in your HVAC system is preventable. We offer brand names moisture prevention systems for your air conditioner, which monitors AC condensation and warns users when the level of condensation is unsafe.</p>
-						<p>Some of their caracteristics and benefits:</p>
+						<div id="accordion">
+						  <h2><img src="images/meter.png" class="accordionMetoerImg" alt="">Maintenance Contracts</h2>
+						  <div>
+						    <p>
+						   To help extend the life of your furnace be sure to provide regular maintenance.  We offer affordable yearly service contract for residential & light commercial customers. Sign up by calling us or making an appointment today!
+						    </p>
+						  </div>
+						  <h2><img src="images/meter.png" class="accordionMetoerImg" alt="">HVAC Unit Protection</h2>
+						  <div>
+						    <p>
+						  Each year , the average home or business experiences more than 300 potentially damaging surges.Today's Heating, Ventilation and Air Conditioning (HVAC) Equipment is becoming more sensitive to this avoidable environmental condition.</p>
+						  <p>
+							What can be done?</p>
+							<p>
+							Installation of a quality surge protector product to prevent or minimize the damage to your HVAC units. It removes the daily power surges and spikes from the local power company, it protects from lightning strikes and the life of your equipment as well. Get it installed today by calling us for an appointment now! 
+							</p>
+						  </div>
+						  <h2><img src="images/meter.png" class="accordionMetoerImg" alt="">Water Damage Protection</h2>
+						  <div>
+							<p>The damage caused by excess condensation in your HVAC system is preventable. We offer brand names moisture prevention systems for your air conditioner, which monitors AC condensation and warns users when the level of condensation is unsafe.</p>
+							<p>Some of their caracteristics and benefits:</p>
+							<ul>
+								<li>Monitor AC condensation</li>
+								<li>Prevent condensation overflow on 24V air conditioning systems</li>
+								<li>Avoid moisture damage caused by AC condensation overflow</li>
+								<li>Residential</li>
+								<li>Commercial</li>
+								<li>Excellent for Rooftop Package Units</li>
+							</ul>
+						  </div>
+						  <h2><img src="images/meter.png" class="accordionMetoerImg" alt="">New Unit Install  & Upgrades</h2>
+						  <div>
+						    <p>
+								Reduce Energy Costs &
+								Reduce Pollution by Updating Your Heating and Cooling System.
+								If your system is older, or you  need a new unit you would the opportunity to cut your fuel bills and your system's pollution output in half with a new, energy efficient air conditioning and heating system. </p>
+
+								<p>Contact one our comfort advisers near you to schedule a no-cost analysis of the benefits and savings of replacing your system with a new energy efficient air conditioning and heating system. 
+						    </p>
+						  </div>
+						</div>
+						<br/>
+					</div>
+
+					<div class="col-md-6">
+						<h1 class="center-text"><strong>Our Current Promotions</strong></h1>
 						<ul>
-							<li>Monitor AC condensation</li>
-							<li>Prevent condensation overflow on 24V air conditioning systems</li>
-							<li>Avoid moisture damage caused by AC condensation overflow</li>
-							<li>Residential</li>
-							<li>Commercial</li>
-							<li>Excellent for Rooftop Package Units</li>
+							<li><p>FREE ESTIMATE for your new AC or Heating System</p></li>
+							<li><p>Save 10% on your next HVAC Service when you make a recommendation</p></li>
 						</ul>
-					  </div>
-					  <h3><img src="images/meter.png" class="accordionMetoerImg" alt="">New Unit Install  & Upgrades</h3>
-					  <div>
-					    <p>
-							Reduce Energy Costs &
-							Reduce Pollution by Updating Your Heating and Cooling System.
-							If your system is older, or you  need a new unit you would the opportunity to cut your fuel bills and your system's pollution output in half with a new, energy efficient air conditioning and heating system. </p>
-
-							<p>Contact one our comfort advisers near you to schedule a no-cost analysis of the benefits and savings of replacing your system with a new energy efficient air conditioning and heating system. 
-					    </p>
-					  </div>
 					</div>
 				</div>
 			</div>
@@ -176,6 +187,7 @@ My portfolio: https://github.com/npaul007
 			<div class="row evenRow">
 				<div class="container">
 					<ul id="tipsList">
+						<div class="col-md-6">
 						<li>Just as a tune-up for your car can improve your gas mileage, a yearly tune-up of your heating and cooling system can improve efficiency and comfort.You should tune up your HVAC unit yearly
 						Call us today for your Fall heating check up or for your Spring A/C check up.</li>
 
@@ -184,7 +196,9 @@ My portfolio: https://github.com/npaul007
 
 						<li>HVAC systems break down. Don't panic! Call us and we will quickly diagnose your system to pin point the problems then making the appropriate recommendations to fix the problems.
 						</li>
-
+						</div>
+						
+						<div class="col-md-6">
 						<li>Improves system performance
 						Increases energy efficiency
 						Reduces energy cost
@@ -198,6 +212,7 @@ My portfolio: https://github.com/npaul007
 						Professionally  Installed Surge Protection:
 						Protects Against Lightning
 						Protects against Utility Grid "Spikes"and Extends the Life of your equipment.</li>
+						</div>
 					</ul>
 				</div>
 			</div>
@@ -206,8 +221,7 @@ My portfolio: https://github.com/npaul007
 				<div class="container">
 					<header>
 						<h1 class="lead-header center-text"><strong>About Us</strong></h1>
-						<p class="center-text">Lebrun's HVAC Services provides cooling, heating, and Indoor Air Quality services  with a knowledgeable team of trained specialist(s) w
-						ho have the professional background to get the job done right. Guaranteed.</p>
+						<p class="center-text">Lebrun's HVAC Services provides cooling, heating, and Indoor Air Quality services  with a knowledgeable team of trained specialist(s) who have the professional background to get the job done right. Guaranteed.</p>
 					</header>
 				</div>
 			</div>
@@ -235,12 +249,12 @@ My portfolio: https://github.com/npaul007
 					<br/>
 					<article>
 						<div class="col-md-5">
-							<p>We are also an <strong>Approved</strong>  NEST PRO Installer in the DC Metro Area !</p>
-							<p>Click this  video to see how Nest products could save you more than just money !</p>
-							<a href="https://nest.com/" target="_blank">
+							<p class="nestpro-text">We are also an <strong>Approved</strong>  NEST PRO Installer in the DC Metro Area !</p>
+							<p class="nestpro-text">Click this  video to see how Nest products could save you more than just money !</p>
+							<br/>
+							<a href="https://nest.com/" target="_blank" class="nestImg-container">
 								<img src="images/nest.jpg" class="img-responsive" id="nestImg"  alt="">
 							</a>
-							<br/>
 						</div>
 						<div class="col-md-7">
 							<div class="video-container">
@@ -258,41 +272,37 @@ My portfolio: https://github.com/npaul007
 			</div>
 
 			<div class="row evenRow" id="contactRow">
-				<h1 class="center-text lead-header"><strong>Give us a Call!</strong></h1>
-				<h1 class="center-text"><a href="tel:301-613-1392">&#9742 301.613.1392</a></h1>
+				<div class="col-md-4 center-text">
+					<h1 class="lead-header"><strong>Contact Us</strong></h1>
+					<h3>tel:<a href="tel:301-613-1392">+301-613-1392</a></h3>
+					<h3>fax:301-497-1945</h3>
+					<h3>email:<a href="mailto:prstech1@gmail.com">prstech1@gmail.com</a> </h3>
+				</div>
 
-				<br/>
-
-				<h2 class="center-text">Or ....</h2>
-
-				<br/>
-
-				<h1 class="center-text lead-header"><strong>Send us a Message!</strong></h1>
-
-				<br/>
-
-				<form action="index.php" method="post" id="messageForm">
-					<div class="container">
-						<div class="col-md-6">
-							<input type="text"  name="firstName" placeholder="your first name" class="text-input center form-control" required>
-							<input type="text"  name="lastName" placeholder="your last name" class="text-input center form-control" required>
-						</div>
-						<div class="col-md-6">
-							<input type="email"  name="email" placeholder="your e-mail" class="text-input center form-control" required>
-							<input type="text"  name="phoneNumber" placeholder="your phone number" class="text-input center form-control" required>
-						</div>
-						<br/>
+				<div class="col-md-8">
+					<div class="row">
+						<form action="index.php" method="post" id="messageForm">			
+							<div class="col-md-6">
+								<input type="text"  name="firstName" placeholder="your first name" class="text-input center form-control" required>
+								<input type="text"  name="lastName" placeholder="your last name" class="text-input center form-control" required>
+							</div>
+							<div class="col-md-6">
+								<input type="email"  name="email" placeholder="your e-mail" class="text-input center form-control" required>
+								<input type="text"  name="phoneNumber" placeholder="your phone number" class="text-input center form-control" required>
+							</div>
+		
+						</form>
 					</div>
-				</form>
 
-				<div class="container">
-					<div class="col-md-12">
-						<textarea name="message" form="messageForm" cols="30" rows="10" class="text-input center form-control" placeholder="your message" required></textarea>
+					<div class="row">
+						<div class="col-md-12">
+							<textarea name="message" form="messageForm" cols="30" rows="10" class="text-input center form-control" placeholder="your message" required></textarea>
 
-						<br/>
+							<br/>
 
-						<button class="btn btn-default hollow-button center" form="messageForm">Submit</button>
+							<button class="btn btn-default hollow-button center" form="messageForm">Send Message</button>
 
+						</div>
 					</div>
 				</div>
 			</div>
@@ -307,12 +317,10 @@ My portfolio: https://github.com/npaul007
 			</div>
 
 			<footer class="row footer">
-				<div class="container center-text">
-					<div class="inline-block"><p>&copy Lebrun's HVAC Services. LLC | </p></div>
-					<div class="inline-block"><p> tel:<a href="tel:301-613-1392">+301-613-1392</a> | </p></div>
-					<div class="inline-block"><p>fax:301-497-1945 | </p></div>
-					<div class="inline-block"><p><a href="mailto:prstech1@gmail.com">prstech1@gmail.com</a> | </p></div>
-					<div class="inline-block"><p>Laurel, MD  20723</p></div>
+				<div class="container">
+					<div class="inline-block">
+						<p>&copy Lebrun's HVAC Services. LLC. Laurel, MD  20723</p>
+					</div>
 				</div>
 			</footer>
 		</div>
