@@ -172,6 +172,7 @@ My portfolio: https://github.com/npaul007
 							<li><p>FREE ESTIMATE for your new AC or Heating System</p></li>
 							<li><p>Save 10% on your next HVAC Service when you make a recommendation</p></li>
 						</ul>
+						<img src="images/piggy-bank-2-xxl.png" class="img-responsive center" alt=""/>
 					</div>
 				</div>
 			</div>
