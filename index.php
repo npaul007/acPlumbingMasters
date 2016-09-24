@@ -41,7 +41,7 @@ My portfolio: https://github.com/npaul007
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span> 
 		      </button>
-		      <a class="navbar-brand"><strong>LeBrun's HVAC Services</strong></a>
+		      <a class="navbar-brand"><strong>ACPlumbingMasters</strong></a>
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav navbar-right">
@@ -66,8 +66,8 @@ My portfolio: https://github.com/npaul007
 						<div class="col-md-12">
 							<h1 class="center-text lead-header" id="lead-header"><strong>LeBrun's HVAC Services. LLC</strong></h1>
 							<h2 class="center-text" id="slogan">"<strong>HVAC Comfort Always at a Comfortable Price!"</strong></h2>
-							<h3 class="center-text"><span style="color:red">Heating</span>, 
-								<span style="color:blue">Cooling</span> & <span style="color:green">Indoor Air Quality</span> </h3>
+							<h4 class="center-text"><span style="color:red">Heating</span>, 
+								<span style="color:blue">Cooling</span> & <span style="color:green">Indoor Air Quality</span> </h4>
 						</div>
 					</div>
 				</div>
@@ -120,8 +120,8 @@ My portfolio: https://github.com/npaul007
 			<div class="row evenRow">
 				<div class="container">
 					<div class="col-md-6">
-						<h1 class="center-text"><strong>Other services we offer:</strong></h1>
-
+						<h1 class="center-text"><strong>We also offer:</strong></h1>
+						<br/>
 						<div id="accordion">
 						  <h2><img src="images/meter.png" class="accordionMetoerImg" alt="">Maintenance Contracts</h2>
 						  <div>
@@ -167,7 +167,8 @@ My portfolio: https://github.com/npaul007
 					</div>
 
 					<div class="col-md-6">
-						<h1 class="center-text"><strong>Our Current Promotions</strong></h1>
+						<h1 class="center-text"><strong>Current Promotions</strong></h1>
+						<br/>
 						<ul>
 							<li><p>FREE ESTIMATE for your new AC or Heating System</p></li>
 							<li><p>Save 10% on your next HVAC Service when you make a recommendation</p></li>
@@ -180,41 +181,90 @@ My portfolio: https://github.com/npaul007
 				<div class="container">
 					<header>
 						<h1 class="lead-header center-text"><strong>Recommendations</strong></h1>
-						<p class="center-text">Here are some tips to help create a comfortable environment for your home or business:</p>
+						<article class="center" id="rec-par">				
+							<p >Here are some tips to help create a comfortable environment for your home or business:</p>
+						</article>					
 					</header>
 				</div>
 			</div>
 
 			<div class="row evenRow">
 				<div class="container">
-					<ul id="tipsList">
-						<div class="col-md-6">
-						<li>Just as a tune-up for your car can improve your gas mileage, a yearly tune-up of your heating and cooling system can improve efficiency and comfort.You should tune up your HVAC unit yearly
-						Call us today for your Fall heating check up or for your Spring A/C check up.</li>
+					<div class="col-md-4">
+						<h3><strong>Heating and Air Conditioning</strong></h3>
+						<ul>
+							<li>Just as a tune-up for your car can improve your gas mileage, a yearly tune-up of your heating and cooling system can improve efficiency and comfort.
+							</li>
+							<li>
+							You should tune up your HVAC unit yearly
+							Call us today for your Fall heating check up or for your Spring A/C check up.
+							</li>
+						</ul>
+						<h3><strong>Indoor Air Quality Solutions</strong></h3>
+						<ul>
+							<li>Indoor Air pollutants can aggravate asthma and allergies and other respitory problems . Installing a whole house air cleaner on your ductwork will purify the air that you and your family breathe. 
+							</li>
+							<li>
+							Call us today to get  one of our trained Indoor Air Quality (IAQ)  specialists to show you how you and your family could breathe comfortably and safely.
+							</li>
+						</ul>
+						<h3><strong>Diagnostic & Repairs</strong></h3>
+						<ul>
+							<li>HVAC systems break down. Don't panic! Call us and we will quickly diagnose your system to pin point the problems then making the appropriate recommendations to fix the problems.
+							</li>
+						</ul>
+					</div>
 
-						<li>Indoor Air pollutants can aggravate asthma and allergies and other respitory problems . Installing a whole house air cleaner on your ductwork will purify the air that you and your family breathe. Call us today to get  one of our trained Indoor Air Quality (IAQ)  specialists to show you how you and your family could breathe comfortably and safely.
-						</li>
+					<div class="col-md-4">
+						<h3><strong>Maintenance Contracts</strong></h3>
+						<ul>
+							<li>
+								They help Improve system performance,
+								Increase energy efficiency,
+								Reduce energy costs,
+								Extend equipment lifespan,
+								prevent costly breakdowns and disasters and
+								Improve system safety.
+								Sign Up for Home Service Plan today!
+							</li>
+						</ul>
+						<h3><strong>HVAC Unit Protection</strong></h3>
+						<ul>
+							<li>
+								DON'T LEAVE YOUR AIR CONDITIONER DEFENSELESS !
+							</li>
+							<li>
+							Daily power surges from your utility and lightning strikes could badly damage your HVAC equipment.
+							Professionally  Installed Surge Protection:
+							Protects Against Lightning
+							Protects against Utility Grid "Spikes"and Extends the Life of your equipment.
+							</li>
+						</ul>
+					</div>
 
-						<li>HVAC systems break down. Don't panic! Call us and we will quickly diagnose your system to pin point the problems then making the appropriate recommendations to fix the problems.
-						</li>
-						</div>
-						
-						<div class="col-md-6">
-						<li>Improves system performance
-						Increases energy efficiency
-						Reduces energy cost
-						Extends equipment lifespan
-						Helps prevent costly breakdowns and disasters
-						Improve system safety.
-						Sign Up for Home Service Plan today!</li>
-
-						<li>DON'T LEAVE YOUR AIR CONDITIONER DEFENSELESS !
-						Daily power surges from your utility and lightning strikes could badly damage your HVAC equipment.
-						Professionally  Installed Surge Protection:
-						Protects Against Lightning
-						Protects against Utility Grid "Spikes"and Extends the Life of your equipment.</li>
-						</div>
-					</ul>
+					<div class="col-md-4">
+						<h3><strong>Water Damage Protection</strong></h3>
+						<ul>
+							<li>As your A/C is cooling down your house, it's also removing humidity in the process. That humidity condensates and then that water drains down through the PVC drain system. What happens is that over time, the PVC drain  clogs up, 
+								causing dirty water to overflow potentially damaging some electrical part(s), the floor or the ceilling.</li>
+							<li>
+								 We offer two kinds. The first one will make an "alarming" sound when it comes in contact with water so you could turn off the unit while the other will actually turn off the unit itself in the event that the PVC drain clogged up. Are you protected ? 
+								 Get the peace of mind by calling us today! 
+							</li>
+						</ul>
+						<h3><strong>New Unit Install & Upgrades</strong></h3>
+						<ul>
+							<li>
+								We ensure that your new equipment is:
+ 
+								Correctly sized to meet your home's needs
+								Connected to a well-sealed duct system
+								Operating with sufficient airflow in the system
+								Installed with the proper amount of refrigerant
+							</li>
+							<li>Call now for an estimate!</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 
@@ -222,7 +272,9 @@ My portfolio: https://github.com/npaul007
 				<div class="container">
 					<header>
 						<h1 class="lead-header center-text"><strong>About Us</strong></h1>
-						<p class="center-text">Lebrun's HVAC Services provides cooling, heating, and Indoor Air Quality services  with a knowledgeable team of trained specialist(s) who have the professional background to get the job done right. Guaranteed.</p>
+						<article class="center"  id="aboutus-par">
+							<p>Lebrun's HVAC Services provides cooling, heating, and Indoor Air Quality services  with a knowledgeable team of trained specialist(s) who have the professional background to get the job done right. Guaranteed.</p>
+						</article>
 					</header>
 				</div>
 			</div>
@@ -273,16 +325,16 @@ My portfolio: https://github.com/npaul007
 			</div>
 
 			<div class="row evenRow" id="contactRow">
-				<div class="col-md-4 center-text">
+				<div class="col-md-4">
 					<h1 class="lead-header"><strong>Contact Us</strong></h1>
-					<h3>tel:<a href="tel:301-613-1392">+301-613-1392</a></h3>
-					<h3>fax:301-497-1945</h3>
-					<h3>email:<a href="mailto:prstech1@gmail.com">prstech1@gmail.com</a> </h3>
+					<h3><strong>tel:</strong><a href="tel:301-613-1392"> +301-613-1392</a></h3>
+					<h3><strong>fax:</strong> +301-497-1945</h3>
+					<h3><strong>email:</strong><a href="mailto:prstech1@gmail.com"> prstech1@gmail.com</a> </h3>
 				</div>
 
 				<div class="col-md-8">
 					<div class="row">
-						<form action="index.php" method="post" id="messageForm">			
+						<form  class="center-text" action="index.php" method="post" id="messageForm">			
 							<div class="col-md-6">
 								<input type="text"  name="firstName" placeholder="your first name" class="text-input center form-control" required>
 								<input type="text"  name="lastName" placeholder="your last name" class="text-input center form-control" required>
@@ -320,7 +372,7 @@ My portfolio: https://github.com/npaul007
 			<footer class="row footer">
 				<div class="container">
 					<div class="inline-block">
-						<p>&copy Lebrun's HVAC Services. LLC. Laurel, MD  20723</p>
+						<p>&copy Lebrun's HVAC Services LLC</p>
 					</div>
 				</div>
 			</footer>

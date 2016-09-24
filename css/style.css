@@ -233,6 +233,14 @@ p{
 	width: 80%;
 }
 
+#aboutus-par{
+	width: 80%;
+}
+
+#rec-par{
+	text-align: center;
+}
+
 #about-lead-header{
 	background: #4d0a00;
 	color: white;
@@ -335,7 +343,7 @@ p{
 		height: auto;
 	}
 
-	#ceo-text{
+	#ceo-text h2{
 		text-align: center;
 	}
 
@@ -377,6 +385,21 @@ p{
 
 	.nestpro-text{
 		text-align: center;
+	}
+
+	.evenRow{
+		background: #f8f1ec;
+		padding: 45px 5px 45px 5px;
+	}
+
+	.oddRow{
+		background: #f1e4da;
+		padding: 45px 5px 45px 5px;
+	}
+
+	#rec-par{
+		text-align: left;
+		width: 80%;
 	}
 }
 
