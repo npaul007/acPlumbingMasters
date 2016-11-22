@@ -151,12 +151,6 @@ a{
 	-webkit-justify-content: center;
 }
 
-@media screen and (max-width: 760px){
-	#lead-row{
-		height: 100vh;
-	}
-}
-
 #meterImg{
 	height: 250px;
 	width: 250px;
@@ -165,10 +159,21 @@ a{
 	border-radius: 150px;
 
 	position: absolute;
-	left: 0px;
+	left: -28px;
+	top: 25px;
 	float: left;
+}
 
+@media screen and (max-width: 760px){
+	#lead-row{
+		height: 600px;
+	}
 
+	#meterImg{
+		height: 150px;
+		width: 150px;
+		border: 20px solid #f8f1ec;
+	}
 }
 
 .accordionMetoerImg{
