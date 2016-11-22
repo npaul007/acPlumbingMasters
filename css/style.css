@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700');
+
 #wrapper{
 	margin-top: 35px;
 	padding: 15px;
@@ -5,7 +7,7 @@
 }
 
 body{
-	font-family: sans-serif;
+	font-family: 'Bitter', serif;
 	/*background:linear-gradient(to bottom right, #f2e5d9 , #dfbe9f); */
 	overflow-x:none;
 }
@@ -49,6 +51,12 @@ a{
 
 .navbar-brand{
 	font-size: 1.7em;
+}
+
+@media screen and (max-width: 500px){
+	.navbar-brand{
+		font-size: 1em;
+	}
 }
 
 .navbar-brand:hover{
@@ -130,27 +138,37 @@ a{
 }
 
 #lead-row{
-	height: auto;
+	height: 100vh;
+	padding: 20px;
 	background-image: url(../images/leadrow.png);
 	background-size: 100% 120%;
 	background-position: center;
+
+	display:-webkit-flex;
+	display:-ms-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
 }
 
-#sub-lead-row{
-	position: relative;
-	bottom: 100px;
+@media screen and (max-width: 760px){
+	#lead-row{
+		height: 100vh;
+	}
 }
 
 #meterImg{
 	height: 250px;
 	width: 250px;
-	margin-bottom: 50px;
+
 	border: 40px solid #f8f1ec;
-	border-radius: 200px;
+	border-radius: 150px;
+
+	position: absolute;
+	left: 0px;
 	float: left;
-	position: relative;
-	right: 45px;
-	bottom: 25px;
+
+
 }
 
 .accordionMetoerImg{
@@ -287,6 +305,7 @@ p{
 }
 
 #accordion h2{
+	font-family: 'Bitter', serif;
 	background: #f1e4da;
 	color: black;
 	padding: 15px;
@@ -297,8 +316,14 @@ p{
 }
 
 #accordion div {
+	font-family: 'Bitter', serif;
 	background: #fff;
 	border-radius: 15px;
+	overflow-y: scroll;
+}
+
+#accordion .ui-accordion-content {
+    height: 150px;
 }
 
 .ui-state-focus { 
@@ -317,13 +342,8 @@ p{
 }
 
 @media screen and (max-width: 760px){
-	#lead-row{
-		height: auto;
-	}
-
-	#sub-lead-row{
-		position: relative;
-		bottom: 60px;
+	#accordion .ui-accordion-content {
+	    height: auto;
 	}
 
 	.lead-header{
