@@ -123,6 +123,7 @@ My portfolio: https://github.com/npaul007
 						<h2 class="center-text">Water Damage Protection</h2>
 							<p>The damage caused by excess condensation in your HVAC system is preventable. We offer brand names moisture prevention systems for your air conditioner, which monitors AC condensation and warns users when the level of condensation is unsafe.</p>
 							<p>Some of their characteristics and benefits:</p>
+
 							<ul>
 								<li>Monitor AC condensation</li>
 								<li>Prevent condensation overflow on 24V air conditioning systems</li>
@@ -131,6 +132,7 @@ My portfolio: https://github.com/npaul007
 								<li>Commercial</li>
 								<li>Excellent for Rooftop Package Units</li>
 							</ul>
+
 					</div>
 					<div class="col-lg-6">
 						<div class="icon-png center ">
@@ -178,6 +180,7 @@ My portfolio: https://github.com/npaul007
 			<div class="row evenRow">
 				<div class="container">
 					<div class="col-lg-12 center-text">
+
 						<h1><strong>Current Promotions</strong></h1>
 		
 						<img src="images/piggy-bank-2-xxl.png" class="img-responsive center" alt=""/>
@@ -186,6 +189,8 @@ My portfolio: https://github.com/npaul007
 						<p>Save 10% on your next HVAC Service when you make a recommendation</p>
 						<br/>
 						<br/>
+
+					
 					</div>
 				</div>
 			</div>

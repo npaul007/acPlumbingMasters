@@ -38,6 +38,7 @@ $(document).ready(function(){
 function scrollToDest(dest){
 	if(isNaN(dest))
 		$("html, body").animate({ scrollTop:$(dest).offset().top -50 }, "slow");
+
 	else
 		$("html, body").animate({ scrollTop:dest }, "slow");
 

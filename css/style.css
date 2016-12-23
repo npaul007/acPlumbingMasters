@@ -143,19 +143,18 @@ a{
 	background-image: url(../images/leadrow.png);
 	background-size: 100% 120%;
 	background-position: center;
-        
-              display: flex;
-                            display: -webkit-box;
-                            display: -moz-box;
-                            
-                            display: -webkit-flex;
-                            
-                            
-                            -webkit-box-align: center;
-                            -moz-box-align: center;
-                            -webkit-align-items: center;
-                            -ms-flex-align: center;
-                             align-items: center;
+  
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+
+	display: -webkit-flex;
+
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 #meterImg{
@@ -179,8 +178,10 @@ a{
 	#meterImg{
 		height: 150px;
 		width: 150px;
+
 		top: 40px;
 		left: -10px;
+
 		border: 20px solid #f8f1ec;
 	}
 }
@@ -221,6 +222,7 @@ p{
 .icon-png{
 	height: 100px;
 	width: 100px;
+
 	margin-top: 20px;
 	background: white;
 	border-radius: 100px;
